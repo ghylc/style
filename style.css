@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* reset */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    color: #787878;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    line-height: 1.4;
+}
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+strong {
+    font-weight: normal;
+}
+ol, ul, li {
+    list-style: none
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.fn-hide {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* public */
+.wrap {
+    width: 16rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+}
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+.banner img {
+    width: 16rem;
+    height: 11.778rem;
+}
+/* mods - 基本模块样式 */
+.col-mod {
+    margin-top: .6rem;
+    padding: 0 0.6rem;
+    background-color: #fff;
+}
+.col-mod h3 {
+    padding: 1rem 0 0.25rem;
+    font-size: 1.4rem;
+    color: #333;
+}
+.col-mod .con {
+    padding-bottom: 1rem;
+}
+
+/* mods - 用户评价 */
+.assess {
+    padding: 0;
+}
+.assess .title h3 {
+    padding: 0.7rem 0 0.45rem 0.9rem;
+    font-size: 0.75rem;
+}
+.assess .title span {
+    padding-left: 0.1rem;
+    color: #787878;
+    font-size: 0.6rem;
+}
+.assess .con {
+    overflow: hidden;
+    padding: 1rem 0.6rem 0;
+    background-color: #fff;
+}
